@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Einfaches Block-Icon: Gras oben, Erde unten, Haken in der Mitte -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#7A5230" android:pathData="M14,14h80v80h-80z" />
+    <path android:fillColor="#5DAE3B" android:pathData="M14,14h80v26h-80z" />
+    <path android:fillColor="#4A9130" android:pathData="M14,40h10v8h-10zM34,40h10v6h-10zM58,40h10v9h-10zM80,40h14v7h-14z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M36,62l10,10l26,-26l6,6l-32,32l-16,-16z" />
+</vector>

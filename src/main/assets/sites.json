@@ -1,0 +1,114 @@
+[
+  {
+    "id": "pmc",
+    "name": "PlanetMinecraft",
+    "url": "https://www.planetminecraft.com/server/cubeside-de/vote/",
+    "match": "planetminecraft.com",
+    "ok": [
+      "Successfully voted for Cubeside.de",
+      "You already voted"
+    ],
+    "nameSel": "#submit_vote_form input[type=text], #submit_vote_form input:not([type=hidden])",
+    "btn": ".captcha_submit"
+  },
+  {
+    "id": "mslcom",
+    "name": "minecraft-server-list.com",
+    "url": "https://minecraft-server-list.com/server/366/vote/",
+    "match": "minecraft-server-list.com",
+    "ok": [
+      "Thanks, Vote Registered",
+      "already voted today"
+    ],
+    "nameSel": "#ignnn",
+    "btn": "#voteButton"
+  },
+  {
+    "id": "mseu",
+    "name": "minecraft-server.eu",
+    "url": "https://minecraft-server.eu/vote/index/7CB/",
+    "match": "minecraft-server.eu",
+    "ok": [
+      "Du hast erfolgreich für den Server abgestimmt",
+      "Du kannst für diesen Server heute nicht mehr voten"
+    ],
+    "nameSel": "#voteBox input:not([type=hidden])",
+    "btn": "#voteBox button, #voteBox input[type=submit], #voteBox > :nth-child(3)"
+  },
+  {
+    "id": "mcmp",
+    "name": "minecraft-mp.com",
+    "url": "https://minecraft-mp.com/server/7268/vote/",
+    "match": "minecraft-mp.com",
+    "ok": [
+      "Thank you for your vote!",
+      "You have already voted for this server today"
+    ],
+    "nameSel": "#nickname",
+    "checks": [
+      "#accept"
+    ],
+    "btn": "#vote-form-block > :first-child, #vote-form-block button"
+  },
+  {
+    "id": "mcslnet",
+    "name": "minecraft-serverlist.net",
+    "url": "https://www.minecraft-serverlist.net/vote/1122/",
+    "match": "minecraft-serverlist.net",
+    "ok": [
+      "Du hast soeben für Cubeside.de abgestimmt",
+      "Du hast bereits für Cubeside.de abgestimmt"
+    ],
+    "nameSel": "#mcname",
+    "btn": "#votebtn"
+  },
+  {
+    "id": "slnet",
+    "name": "serverliste.net",
+    "url": "https://serverliste.net/vote/5",
+    "match": "serverliste.net",
+    "ok": [
+      "Du hast erfolgreich für den Server abgestimmt",
+      "Du hast heute schon für diesen Server gevoted"
+    ],
+    "nameSel": "input[name=username]",
+    "btn": "form > :last-child, form button[type=submit], form input[type=submit]"
+  },
+  {
+    "id": "mcsde",
+    "name": "minecraft-servers.de",
+    "url": "https://minecraft-servers.de/server/cubeside-de/vote",
+    "match": "minecraft-servers.de",
+    "ok": [
+      "Dein Vote wurde erfolgreich übermittelt",
+      "Du hast bereits innerhalb der letzten 24 Stunden gevotet"
+    ],
+    "nameSel": "input[name=username]",
+    "btn": "form > :last-child, form button[type=submit], form input[type=submit]"
+  },
+  {
+    "id": "tmcs",
+    "name": "topminecraftservers.org",
+    "url": "https://topminecraftservers.org/vote/21620",
+    "match": "topminecraftservers.org",
+    "ok": [
+      "Thanks for voting!",
+      "already voted"
+    ],
+    "nameSel": "#username",
+    "btn": "#voteButton"
+  },
+  {
+    "id": "mcliste",
+    "name": "mc-liste.de",
+    "url": "https://www.mc-liste.de/server/193/vote#serverVotePanel",
+    "match": "mc-liste.de",
+    "ok": [
+      "Danke für deinen Vote.",
+      "kannst du für diesen Server heute nicht mehr voten"
+    ],
+    "nameSel": "input[name=username]",
+    "focus": "input[name=captcha]",
+    "manual": "Bitte die Captcha-Aufgabe eintippen und auf Voten tippen"
+  }
+]
